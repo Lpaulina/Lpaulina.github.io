@@ -1,0 +1,22 @@
+.intro{
+    background-color: hsl(12, 64%, 71%);
+    display: flex;
+    flex-direction: horizontal;
+    flex-wrap:wrap;
+    justify-content: center;
+    padding: 2vh 0 2vh;
+}
+
+.welcome{
+    color: aliceblue;
+    padding:0 10vh;
+}
+.name{
+    color:rgb(96, 149, 122);
+    font-size: 12vh;
+    padding: 0 10vh;
+}
+.picture{
+    border-radius: 50%;
+    border:solid rgb(96, 149, 122) 4px;
+}
