@@ -10,6 +10,8 @@
 .welcome{
     color: aliceblue;
     padding:0 10vh;
+    font-style: italic;
+    font-size:6vh;
 }
 .name{
     color:rgb(96, 149, 122);
@@ -19,4 +21,55 @@
 .picture{
     border-radius: 50%;
     border:solid rgb(96, 149, 122) 4px;
+}
+.AboutMe{
+    background-image:url("./flowerBackground.png");
+    font-size: 5vh;
+    color: black;
+    padding:3vh 3vh;
+}
+.Projects{
+    background-image:url("./WhiteBackground.png");
+    font-size: 5vh;
+    padding: 2vh 10vh 4vh;
+}
+.PTitle{
+    text-align:center;
+    padding: 3vh;
+}
+
+.alienPic{
+    border-radius: 15%;
+    border:solid rgb(178, 229, 149) 4px;
+}
+.dosPic{
+    border-radius: 50%;
+    border:solid black 4px;
+}
+.networkPic{
+    border-radius: 15%;
+    border:solid black 4px;
+}
+.filterPic{
+    border-radius:15%;
+    border:solid black 4px;
+}
+.eduTitle{
+    text-align:center;
+}
+.Education{
+    background-image:url("./bookBack.png");
+    padding: 4vh 10vh;
+    font-size:5vh;
+    color:black
+}
+
+.skillsTitle{
+    text-align: center;
+}
+.Skills{
+    font-size: 5vh;
+    background-image:url("./greyBack.png");
+    padding: 4vh 10vh;
+    color:aliceblue
 }
