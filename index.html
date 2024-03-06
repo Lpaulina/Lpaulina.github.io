@@ -1,49 +1,65 @@
 <DOCTYPE html> 
     <html>
+        <body>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#Meducation">Educational Background</a>
+            <a href="#contact">Contact</a>
+            <a href="#Mabout">More About Me</a>
+          </div>
+
+          <div class = "tabContent" id = "Home">
         <head>
-            <!--...-->
-            <title>PaulinaLujan</title>
+            <!--... Home Page-->
+            <title >PaulinaLujan</title>
             <link href = "./style.css" rel = "stylesheet">
         </head>
-        <body>
-            <section class ="intro">
-                <img src = "./Picture.JPG" height = "400vh" class = "picture" >           
-                <div>
-                    <h1 class = "welcome">Welcome, I'm</h1>
-                    <h2 class = "name">Paulina Lujan</h2>
-                </div>
-            </section>
-
-
 
             <section class = "AboutMe">
                 <h1>About Me</h1>
-                <p>I grew up in a small town of Mexico called AguaPrieta which borders with Douglas AZ. After going to highschool in Douglas I applied to the University of Arizona. Although at first I was unsure which of which engineering discipline to choose, I took the decision of declaring as a software engineering major. 
-                    I can gladly say that I as I am going through my second year in this major I have thoroughly enjoyed the classes geared towards my career and am excited to keep learning new skills and about the innovations that are possible throug software. I like to practice challenge myself by doing projects such as this one!
+                <p>I grew up in a small town of Mexico called AguaPrieta which borders with Douglas AZ. After attending Douglas High School I decided to continue my education at the University of Arizona. Although at first I was unsure of which engineering discipline to settle on, after my first semester I declared as a software engineering major. 
+                    I can gladly say that as I continue to learn through my second year about software engineering I have thoroughly enjoyed the classes geared towards my career and am looking forward to keep learning new skills and learning about the innovations that are possible through software. I like to challenge myself by doing projects such as this one!
                 </p>
             </section>
+        </div> <!--End of Home Page-->
+
+            <!--...Meducation-->
+
+            <div class = "tabContent" id = "Meducation">
 
             <section class = "Projects">
                 <h1 class = PTitle>Projects</h1>
+
+                <section class = "divider1">
+
                 <div class = "AlienInvasion">
-                    <h3>Alien Invastion</h3>
+                    <h5>Alien Invasion</h5>
                         <p><img src = "./AlienInvasion.png" height = "30%" width = "30%" class = "alienPic">
                     <br>This project was coded in Python<br><a href="https://github.com/Lpaulina/Code" target = "_blank">Link to code</a></p> 
                 </div>
+
                 <div class = "Dos">
-                    <h3>Dos</h3>
+                    <h5>Dos</h5>
                         <p><img src = "./Dos.png" height = "30%" width = "30%" class = "dosPic">
                         <br>This project was coded in C<br><a href="https://github.com/Lpaulina/DOS" target = "_blank">Link to code</a></p><br>
                 </div>
+
+                </section>
+                <section class = "divider2">
+
                 <div class = "Social Network">
-                    <h3>Social Network</h3>
+                    <h5>Social Network Management System</h5>
                         <img src = "./socialNetwork.png" height = "30%" width = "30%" class = "networkPic">
                         <br>This project was coded in C++<br><a href="https://github.com/Lpaulina/SocialNetwork" target = "_blank">Link to code</a></p><br>
                 </div>
+
                 <div class = "dataFilter">
+                    <h5>Data Filter</h5>
                     <img src = "./Filter.png" height = "30%" width = "30%" class = "filterPic">
-                    <p><strong>Data Filter</strong><br>This project was coded in C++<br><a href="https://github.com/Lpaulina/FilterData" target = "_blank">Link to code</a></p>
+                    <p><br>This project was coded in C++<br><a href="https://github.com/Lpaulina/FilterData" target = "_blank">Link to code</a></p>
                 </div>
+            </section>
+
             </section>
 
             <section class = "Education">
@@ -91,9 +107,8 @@
 
             </section>
 
-
-        </body>
-
+     </div> <!--End of Meducation-->
+     </body>
     </html>
 
     
