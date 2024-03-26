@@ -3,21 +3,21 @@
     overflow:hidden;
 }
 
-.topNav a{
+.tablinks{
     float: left;
-    color: white;
+    color:rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration:none;
     font-size: 3hv;
-}
-.topNav a:hover{
+} 
+.topNav button:hover{
     color:black;
 }
 
-.topNav a.active{
-    background-color:green;
-    color: white;
+.topNav button.active{
+    background-color:rgb(159, 217, 178)n;
+    color: rgb(96, 149, 122);
     border-bottom: black;
 }
 
@@ -26,31 +26,31 @@
 }
 
 
-
-
-.intro{
-    background-color: hsl(12, 64%, 71%);
-    display: flex;
-    flex-direction: horizontal;
-    flex-wrap:wrap;
-    justify-content: center;
-    padding: 2vh 0 2vh;
+.homeTitle{
+    padding: 0vh 15vh;
+    color: hsl(12, 64%, 71%);
+    font-style:italic
 }
 
-.welcome{
-    color: aliceblue;
-    padding:0 10vh;
-    font-style: italic;
-    font-size:6vh;
-}
+
 .name{
     color:rgb(96, 149, 122);
     font-size: 12vh;
     padding: 0 10vh;
 }
-.picture{
-    border-radius: 50%;
+.mePic{
+    border-radius: 40%;
     border:solid rgb(96, 149, 122) 4px;
+    height: 40vh;
+    width: 40vh;
+}
+.intro{
+    font-size: 4vh;
+    justify-content:center;
+    display: flex;
+    flex-direction:horizontal;
+    padding: 5vh 5vh;
+
 }
 .AboutMe{
     background-image:url("./GreenBackG.png");
@@ -59,6 +59,24 @@
     padding:3vh 3vh;
     text-align:center
 
+}
+
+.BBPic{
+    border-radius: 60%;
+    border:solid rgb(96, 149, 122) 4px;
+    height: 40vh;
+    width: 25vh;
+}
+
+.Basketball{
+    align-items: center;
+    display:flex;
+    flex-direction:horizontal;
+    padding: 0vh 0vh 0vh 5vh;
+}
+
+.BBContent{
+    padding: 0vh 0vh 0vh 5vh;
 }
 .Projects{
     background-image:url("./WhiteBackground.png");
